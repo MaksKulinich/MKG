@@ -1,4 +1,3 @@
-from math import cos
 import math
 def func1(a,x,y,z):
     L = 6*a*math.pow((x),3) + math.sin(y)*math.cos(z) + math.tan(x+math.pi/3)
