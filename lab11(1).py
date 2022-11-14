@@ -9,6 +9,6 @@ words_split = words.split(" ")
 for i in words_split:
     if i in article_split:
         x = article_split.count(i)
-        writer.writerows(i + "-" + str(x))
+        writer.writerow([i + "-" + str(x)])
 article_file.close()
 csv_file.close()            
